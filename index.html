@@ -108,21 +108,14 @@
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a href="index.html" class="active">Home</a></li>
-								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+								<li class="dropdown"><a href="#">Loja<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="shop.html">Products</a></li>
-										<li><a href="product-details.html">Product Details</a></li> 
-										<li><a href="checkout.html">Checkout</a></li> 
-										<li><a href="cart.html">Cart</a></li> 
+                                        <li><a href="shop.html">Produtos</a></li>
+										<li><a href="product-details.html">Detalhes de produto</a></li>
+										<li><a href="cart.html">Carrinho</a></li> 
 										<li><a href="login.html">Login</a></li> 
                                     </ul>
-                                </li> 
-								<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="blog.html">Blog List</a></li>
-										<li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                </li> 
+                                </li>
 							</ul>
 						</div>
 					</div>
@@ -312,24 +305,12 @@
 							</div>
 						</div>/brands_products
 	-->
-						
-						<div class="price-range"><!--price-range-->
-							<h2>Price Range</h2>
-							<div class="well text-center">
-								 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
-								 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
-							</div>
-						</div><!--/price-range-->
-						
-<!--						<div class="shipping text-center">shipping
-							<img src="images/home/shipping.jpg" alt="" />
-</div>/shipping-->
 					
 					</div>
 				</div>
 				
 				<div class="col-sm-9 padding-right">
-					<div class="features_items"><!--features_items-->
+					<div id="features_items"  class="features_items"><!--features_items-->
 						<h2 class="title text-center">Features Items</h2>
 						<div class="col-sm-4">
 							<div class="product-image-wrapper">
@@ -339,7 +320,7 @@
 											<h2 id="cost1">0€</h2>
 											<p>test</p>
 											<p id="countdown"></p>
-											<a class="btn btn-default add-to-cart" onclick = updateValue("cost1")>Bid Now</a>
+											<a class="btn btn-default add-to-cart" onclick = updateValue("cost1")>Licitar</a>
 										</div>
 								</div>
 							</div>
@@ -352,7 +333,7 @@
 										<h2 id="cost2">0€</h2>
 										<p>test1</p>
 										<p id="countdown1"></p>
-										<a class="btn btn-default add-to-cart"onclick = updateValue("cost2")>Bid Now</a>
+										<a class="btn btn-default add-to-cart"onclick = updateValue("cost2")>Licitar</a>
 									</div>
 								</div>
 							</div>
@@ -365,7 +346,7 @@
 										<h2 id="cost3">0€</h2>
 										<p>test3</p>
 										<p id="countdown2"></p>
-										<a class="btn btn-default add-to-cart"onclick = updateValue("cost3")>Bid Now</a>
+										<a class="btn btn-default add-to-cart"onclick = updateValue("cost3")>Licitar</a>
 									</div>
 								</div>
 							</div>
@@ -378,7 +359,7 @@
 										<h2 id="cost4">0€</h2>
 										<p>Easy Polo Black Edition</p>
 										<p id="countdown3"></p>
-										<a class="btn btn-default add-to-cart"onclick = updateValue("cost4")>Bid Now</a>
+										<a class="btn btn-default add-to-cart"onclick = updateValue("cost4")>Licitar</a>
 									</div>
 									<img src="images/home/new.png" class="new" alt="" />
 								</div>
@@ -392,7 +373,7 @@
 										<h2 id="cost5">0€</h2>
 										<p>Easy Polo Black Edition</p>
 										<p id="countdown4"></p>
-										<a class="btn btn-default add-to-cart"onclick = updateValue("cost5")>Bid Now</a>
+										<a class="btn btn-default add-to-cart"onclick = updateValue("cost5")>Licitar</a>
 									</div>
 									<img src="images/home/sale.png" class="new" alt="" />
 								</div>
@@ -420,7 +401,7 @@
 												<img src="images/home/gallery1.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -433,7 +414,7 @@
 												<img src="images/home/gallery2.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -446,7 +427,7 @@
 												<img src="images/home/gallery3.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -459,7 +440,7 @@
 												<img src="images/home/gallery4.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -475,7 +456,7 @@
 												<img src="images/home/gallery4.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -488,7 +469,7 @@
 												<img src="images/home/gallery3.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -501,7 +482,7 @@
 												<img src="images/home/gallery2.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -514,7 +495,7 @@
 												<img src="images/home/gallery1.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -530,7 +511,7 @@
 												<img src="images/home/gallery3.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -543,7 +524,7 @@
 												<img src="images/home/gallery4.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -556,7 +537,7 @@
 												<img src="images/home/gallery1.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -569,7 +550,7 @@
 												<img src="images/home/gallery2.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -585,7 +566,7 @@
 												<img src="images/home/gallery1.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -598,7 +579,7 @@
 												<img src="images/home/gallery2.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -611,7 +592,7 @@
 												<img src="images/home/gallery3.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -624,7 +605,7 @@
 												<img src="images/home/gallery4.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -640,7 +621,7 @@
 												<img src="images/home/gallery2.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -653,7 +634,7 @@
 												<img src="images/home/gallery4.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -666,7 +647,7 @@
 												<img src="images/home/gallery3.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -679,7 +660,7 @@
 												<img src="images/home/gallery1.jpg" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 											</div>
 											
 										</div>
@@ -702,7 +683,7 @@
 													<img src="images/home/recommend1.jpg" alt="" />
 													<h2>$56</h2>
 													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 												</div>
 												
 											</div>
@@ -715,7 +696,7 @@
 													<img src="images/home/recommend2.jpg" alt="" />
 													<h2>$56</h2>
 													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 												</div>
 												
 											</div>
@@ -728,7 +709,7 @@
 													<img src="images/home/recommend3.jpg" alt="" />
 													<h2>$56</h2>
 													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 												</div>
 												
 											</div>
@@ -743,7 +724,7 @@
 													<img src="images/home/recommend1.jpg" alt="" />
 													<h2>$56</h2>
 													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 												</div>
 												
 											</div>
@@ -756,7 +737,7 @@
 													<img src="images/home/recommend2.jpg" alt="" />
 													<h2>$56</h2>
 													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 												</div>
 												
 											</div>
@@ -769,7 +750,7 @@
 													<img src="images/home/recommend3.jpg" alt="" />
 													<h2>$56</h2>
 													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Bid Now</a>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Licitar</a>
 												</div>
 												
 											</div>
@@ -1140,6 +1121,21 @@
 		    var value1 = document.getElementById(name);
 		    var increment = parseInt(value1.innerHTML, 10) + 1;
 		    value1.innerHTML = increment +"€";
+		}
+	</script>
+	<script>
+
+		function addProduct(){
+			var div1 = document.createElement('div');
+			var div2 = document.createElement('div');
+			var div3 = document.createElement('div');
+			var div4 = document.createElement('div');
+			div1.setAttribute("class","col-sm-4");
+			div2.setAttribute("class","product-image-wrapper");
+			div3.setAttribute("class","single-products");
+			div4.setAttribute("class","productinfo text-center");
+			document.getElementById("features_items").appendChild(div1);
+			document.getElementById("features_items").appendChild(div2);
 		}
 	</script>
 </body>
