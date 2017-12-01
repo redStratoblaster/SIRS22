@@ -3,7 +3,7 @@
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', '207.154.200.27');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'WadSIRSi1718');
+define('DB_PASSWORD', 'WasdSIRSi1718');
 define('DB_NAME', 'BDServer');
  
 /* Attempt to connect to MySQL database */
